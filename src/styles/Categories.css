@@ -1,0 +1,56 @@
+.lmj-categories {
+	text-align: center;
+	padding-top: 30px;
+}
+
+#lmj-categories-selection{
+	display: flex;
+	justify-content: center;
+}
+
+#lmj-categories-active{
+	box-shadow: -1px 1px 1px  rgb(180, 180, 180), -1px -1px 1px rgb(180, 180, 180), 1px 0px 1px rgb(180, 180, 180);
+	padding : 7px;
+	border-radius: 20px 0px 0px 5px;
+	width: 200px;
+	display: flex;
+	flex-direction: row;
+	overflow-x: auto ;
+}
+
+.lmj-category-active{
+	margin: 5px;
+	padding: 3px;
+	border: solid rgb(180, 180, 180) 1px;
+	font-size: medium;
+	color: rgb(127, 204, 235);
+	background-color: rgb(236, 244, 247);
+	border-radius: 10px;
+	height: 20px;
+	width: auto;
+	position: relative;
+}
+
+.lmj-category-active > button{
+	opacity: 1;
+	position: absolute;
+	right: 2px;
+	width: 20px;
+	height: inherit;
+	border: none;
+	background-color: white;
+	padding: 0;
+	margin-left: 4px;
+	box-shadow: -1px 1px 1px  rgb(180, 180, 180), -1px -1px 1px rgb(180, 180, 180), 1px 0px 1px rgb(180, 180, 180);
+	border-radius: 0 7px 7px 0;
+	color: inherit;
+}
+
+.lmj-categories-select {
+	margin-right: 15px;
+	border-radius: 0 0 20px 0;
+}
+
+select{
+	background-color: white;
+}

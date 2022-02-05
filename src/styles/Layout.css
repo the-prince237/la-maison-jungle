@@ -1,0 +1,9 @@
+.lmj-layout-inner {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+button, select{
+	padding: 5px;
+}

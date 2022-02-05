@@ -1,0 +1,63 @@
+#plant-item-contener{
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	justify-content: center;
+	align-items: flex-start;
+	position: relative;
+}
+
+.lmj-plant-item {
+	position: relative;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	text-transform: capitalize;
+}
+
+.lmj-plant-item-cover {
+	height: 250px;
+	width: 250px;
+	border-radius: 20px;
+	object-fit: cover;
+}
+
+.lmj-plant-item-price{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #31b572;
+	color: white;
+	border-radius: 10px 20px 10px 0px;
+	height: 50px;
+	width: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.8;
+}
+
+.lmj-plant-item-price:hover{
+	opacity: 1;
+}
+
+.more-infos{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+	color: white;
+	background-color: black;
+	border-radius: 20px;
+	box-shadow: -1px -1px 2px #BBB;
+	cursor: pointer;
+}
