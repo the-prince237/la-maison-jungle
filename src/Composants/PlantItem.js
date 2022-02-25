@@ -7,7 +7,10 @@ function handleClick(plantName, plantDescription) {
 
 
 function PlantItem({ id, cover, name, water, light, description, price }) {
-	
+
+function printMoreInfos() {
+    alert (`${name}\n\n ${description}`);
+}
 
 	return (
 		<div id='plant-item-contener'>
@@ -16,7 +19,7 @@ function PlantItem({ id, cover, name, water, light, description, price }) {
 				{name}
 				<div className="lmj-plant-item-price">{price} XAF</div>
 			</li>
-			<div className="more-infos" title={`Plus d'infos sur ${name} !`}>+</div>
+			<div className="more-infos" title={`Plus d'infos sur ${name} !`} onClick={printMoreInfos}>+</div>
 			<div>
 				<CareScale careType='water' scaleValue={water} />
 				<CareScale careType='light' scaleValue={light} />
